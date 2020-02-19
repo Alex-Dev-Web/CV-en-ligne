@@ -54,7 +54,7 @@ h3, h4{
 #prenom{
     font-family: 'Roboto',sans-serif;
     font-weight: 900;
-    color: #43A047;
+    color: #3975C4;
     font-weight: 900;    
 }
 
@@ -66,7 +66,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #43A047;
+    background-color: #3975C4;
     width: 33%;
 }
 
@@ -100,14 +100,14 @@ img{
     width: 100%;
 }
 
-.titre_aside{
+.title_aside{
     font-family: 'Roboto',sans-serif;
     font-weight: 900;
     background-color: black;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    color: #43A047;
+    color: #3975C4;
     font-size: 25px;
     
 }
@@ -126,7 +126,7 @@ img{
     margin: 20px 20px 20px 20px;
 }
 
-.liste_cv{
+.list_cv{
     flex-direction: row;
 }
 
@@ -134,42 +134,42 @@ img{
     margin: 40px;
 }
 
-.titre_cv{
+.title_cv{
     display: flex;
     flex-direction: row;
     margin-left: 35px;
     padding-top: 5px;
-    border-bottom: 2px solid #43A047;
+    border-bottom: 2px solid #3975C4;
 }
 
 .fa-university{
     justify-content: flex-start;
     font-size: 38px;
-    color: #43A047;
+    color: #3975C4;
     padding-right: 30px;
 }
 
 .fa-dot-circle{
     justify-content: flex-start;
     padding-right:20px;
-    color: #43A047;
+    color: #3975C4;
 }
 
 .fa-circle{
     padding-right: 20px;
-    color: #43A047;
+    color: #3975C4;
 }
 
 .fa-briefcase{
     font-size: 38px;
     padding-right: 30px;
-    color: #43A047;
+    color: #3975C4;
 }
 
 .fa-pencil-alt{
     font-size: 38px;
     padding-right: 30px;
-    color: #43A047;
+    color: #3975C4;
 }
 
 .formation_contenu{
@@ -249,40 +249,6 @@ li{
     padding: 12px 0 0 7px;
 }
 
-@media all and (max-device-width: 480px){
-    #bloc_page{
-        display: flex;
-        flex-direction: column-reverse;
-        
-        width: auto;
-        margin: auto;  
-    }
-    aside{
-        width: auto;
-        margin: auto;
-        background-color: rgb(255, 255, 255);
-    }
-    #info_contact{
-        text-align: center;
-        padding-bottom: 60px;
-    }
-    h1{
-        font-size: 80px;
-    }
-    h2, h3, h4{
-        font-size: 45px;
-    }
-    p, h5{
-        font-size: 40px;
-    }
-    .fa-university, .fa-briefcase, .fa-pencil-alt{
-        font-size: 50px;
-    }
-    .fa-dot-circle, .fa-circle{
-        font-size: 35px;
-    }
-}
-
 @media all and (min-width: 480px) and (max-width: 1024px){
     #bloc_page{
         display: flex;
@@ -293,10 +259,36 @@ li{
     aside{
         width: auto;
         margin: auto;
-        background-color: rgb(255, 255, 255);
+        background-color: #3975C4;
     }
     #info_contact{
         text-align: center;
         padding-bottom: 60px;
+    }
+}
+
+@media all and (max-width: 479px){
+    #bloc_page{
+        display: flex;
+        flex-direction: column-reverse;   
+        width: auto;
+        margin: 0 auto;  
+    }
+    aside{
+        width: auto;
+        margin: auto;
+        background-color: #3975C4;
+    }
+    #info_contact{
+        text-align: center;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+    .recommandation_contenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .john_doe{
+        padding-bottom: 10px;
     }
 }
