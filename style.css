@@ -59,7 +59,7 @@ h3, h4{
 }
 
 #devel{
-    border-bottom: 2px solid #43A047;
+    border-bottom: 2px solid #3975C4;
 }
 
 aside{
@@ -127,7 +127,9 @@ img{
 }
 
 .list_cv{
+    display: flex;
     flex-direction: row;
+    padding-top: 25px;
 }
 
 #formation, #experience, #recommandation{
